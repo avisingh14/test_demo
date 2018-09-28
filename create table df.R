@@ -31,3 +31,8 @@ round(x)
 x=3.9
 trunc(x)
 round(x)
+
+(grades=sample(c('A','B','C','D'),size = 30,replace = T))
+grades=factor(grades)
+gradesFactorOrder
+summary(grades)
